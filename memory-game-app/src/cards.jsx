@@ -9,7 +9,7 @@ function GetCard() {
 	const [lose, setLose] = useState(false);
 	const [guessCount, setGuessCount] = useState(0);
 
-    const catName = ['Pebble', 'Fluffy', 'Fluff', 'Nyx', 'Emerald', 'Topaz', 'Sapphire', 'Munchkin', 'Daffodil', 'Chicken', 'Tulip', 'Flower', 'Duck']
+    const catName = ['Pebble', 'Fluffy', 'Fluff', 'Nyx', 'Emerald', 'Topaz', 'Sapphire', 'Munchkin', 'Daffodil', 'Chicken', 'Tulip', 'Flower', 'Duck', 'Snip', 'Sir Meowiton', 'Catzilla']
 
     function pickName() {
         const index = Math.floor(Math.random() * catName.length);
